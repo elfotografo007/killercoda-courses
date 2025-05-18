@@ -14,6 +14,10 @@
         "title": "Crear un contenedor de Python",
         "text": "python.md",
         "verify": "verify-python.sh"
+      },
+      {
+        "title": "Crear un contenedor de Redis",
+        "text": "redis.md"
       }
     ]
   },
