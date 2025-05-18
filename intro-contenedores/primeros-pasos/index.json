@@ -9,6 +9,11 @@
         "title": "Crear un contenedor de Ubuntu",
         "text": "ubuntu.md",
         "verify": "verify-ubuntu.sh"
+      },
+      {
+        "title": "Crear un contenedor de Python",
+        "text": "python.md",
+        "verify": "verify-python.sh"
       }
     ]
   },
