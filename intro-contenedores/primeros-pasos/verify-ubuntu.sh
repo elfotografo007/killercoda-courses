@@ -1,1 +1,1 @@
-docker ps | grep ubuntu
+docker container ls -a | grep ubuntu

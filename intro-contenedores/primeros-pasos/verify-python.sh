@@ -1,1 +1,1 @@
-docker ps | grep python
+docker container ls -a | grep python

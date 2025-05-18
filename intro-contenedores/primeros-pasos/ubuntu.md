@@ -11,3 +11,6 @@ a la salida estándar del contenedor y ejecutar comandos.
 
 Ahora corre un comando:
 `cat /etc/os-release`{{exec}}
+
+Para salir de la terminal del contenedor:
+`exit`{{exec}}
