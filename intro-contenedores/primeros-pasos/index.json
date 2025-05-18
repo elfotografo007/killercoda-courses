@@ -1,0 +1,18 @@
+{
+  "title": "Primeros Pasos",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Crear un contenedor de Ubuntu",
+        "text": "ubuntu.md",
+        "verify": "verify-ubuntu.sh"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
