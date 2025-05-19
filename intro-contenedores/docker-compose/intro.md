@@ -1,0 +1,5 @@
+# Primeros pasos con Docker Compose
+En este ejercicio, daremos un ejemplo rápido de Docker Compose, una
+herramienta que permite definir y ejecutar aplicaciones compuestas
+por múltiples contenedores.
+Utiliza un archivo YAML para configurar los servicios necesarios y simplifica la gestión de aplicaciones complejas.

@@ -1,0 +1,20 @@
+{
+  "title": "Intro Docker Compose",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Descargar la aplicación de ejemplo",
+        "text": "git-clone.md"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  },
+  "interface": {
+    "layout": "ide"
+  }
+}
