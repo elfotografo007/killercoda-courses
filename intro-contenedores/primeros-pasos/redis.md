@@ -9,7 +9,8 @@ El comando funciona así:
 - `docker` es el ejecutable de Docker
 - `run` le indica a Docker que quiero correr un contenedor
 - `-d` le indica a Docker que lo corra en segundo plano
-- `-p` es para exponer o mapear puertos. Funciona `[HOST]:[CONTENEDOR]`, de manera que el puerto **6379** del contenedor es expuesto en el puerto **6390** del host.
+- `-p` es para exponer o mapear puertos. Funciona `[HOST]:[CONTENEDOR]`, de manera que el puerto **6379** del contenedor es expuesto en el puerto **6390** del host
+- `redis` es el nombre de la imagen. Como no indiqué ningún tag, se asume `redis:latest`
 
 Verifiquemos que el contenedor está corriendo:
 
@@ -17,19 +18,24 @@ Verifiquemos que el contenedor está corriendo:
 
 Ahora instalemos y arranquemos la línea de comandos de redis para jugar:
 
-```
-apt update && apt install -y redis-tools
-redis-cli -p 6390
-```{{exec}}
+
+`apt update && apt install -y redis-tools`{{exec}}
+
+
+`redis-cli -p 6390`{{exec}}
+
 
 Algunos comandos de ejemplo:
 
-```
-set hola 'mundo'
-set hello 'world'
-get hola
-keys *
-```{{exec}}
+
+`set hola 'mundo'`{{exec}}
+
+`set hello 'world'`{{exec}}
+
+`get hola`{{exec}}
+
+`keys *`{{exec}}
+
 
 Salir de redis:
 `exit`{{exec}}
