@@ -8,6 +8,10 @@
       {
         "title": "Descargar la aplicación de ejemplo",
         "text": "git-clone.md"
+      },
+      {
+        "title": "Ejecutar Docker Compose",
+        "text": "docker-compose.md"
       }
     ]
   },
