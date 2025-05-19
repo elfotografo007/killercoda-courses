@@ -18,6 +18,10 @@
       {
         "title": "Crear un contenedor de Redis",
         "text": "redis.md"
+      },
+      {
+        "title": "Comandos básicos de Docker",
+        "text": "comandos.md"
       }
     ]
   },
