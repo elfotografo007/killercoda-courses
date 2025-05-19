@@ -11,7 +11,9 @@
       },
       {
         "title": "Ejecutar Docker Compose",
-        "text": "docker-compose.md"
+        "text": "docker-compose.md",
+        "foreground": "foreground.sh",
+        "background": "background.sh"
       }
     ]
   },

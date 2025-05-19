@@ -30,7 +30,7 @@ services:
 
 volumes:
   todo-mysql-data:
-```
+```{{copy}}
 
 Arranquemos todos los servicios:
 
