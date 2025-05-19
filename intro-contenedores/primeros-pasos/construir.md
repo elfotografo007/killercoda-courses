@@ -22,7 +22,7 @@ Luego un `requirements.txt` para las dependencias:
 Ahora el archivo `Dockerfile`:
 
 ```
-FROM python:3.13
+FROM python:3.13-slim
 WORKDIR /usr/local/app
 
 # Install the application dependencies

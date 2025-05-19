@@ -1,6 +1,6 @@
 Ahora vamos a ejecutar un contenedor de python:
 
-`docker run -it python:3.13`{{exec}}
+`docker run -it python:3.13-slim`{{exec}}
 
 Ahora corramos algo de código de python:
 
