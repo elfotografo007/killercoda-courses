@@ -17,7 +17,7 @@ def hello_world():
 
 Luego un `requirements.txt` para las dependencias:
 
-`echo Flask > requirements.txt`{{exec}}
+`echo flask > requirements.txt`{{exec}}
 
 Ahora el archivo `Dockerfile`:
 
@@ -37,7 +37,7 @@ EXPOSE 5000
 RUN useradd app
 USER app
 
-CMD ["flask", "--app", "hello", "--host", "0.0.0.0", "run"]
+CMD ["flask", "--app", "hello", "run", "--host", "0.0.0.0"]
 ```
 
 Crear la imagen:
@@ -53,7 +53,7 @@ Correr nuestro contenedor:
 `docker run -d -p 5000:5000 --name my-python-app-container python-app`{{exec}}
 
 Verificar que funciona:
-`curl localhost:5000`
+`curl localhost:5000`{{exec}}
 
 Revisar los logs:
 `docker container logs my-python-app-container`{{exec}}
@@ -66,6 +66,7 @@ docker tag python-app ttl.sh/python-app-${random_tag}
 ```{{exec}}
 
 Ahora lo podemos subir:
+
 `docker push ttl.sh/python-app-${random_tag}`{{exec}}
 
 **NOTA:** `ttl.sh` es un repositorio público y gratis que borrar las imágenes
