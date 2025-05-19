@@ -40,5 +40,11 @@ Revisemos los logs:
 
 `docker compose logs`{{exec}}
 
-
 Ahora puedes ver la aplicación corriendo en {{TRAFFIC_HOST1_3000}}
+
+Detener la aplicación
+
+`docker compose stop`{{exec}}
+
+Matar la aplicación *borrando todo*:
+`docker compose down`{{exec}}
