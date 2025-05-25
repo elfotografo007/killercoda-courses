@@ -7,4 +7,4 @@ Utiliza un archivo YAML para configurar los servicios necesarios y simplifica la
 El ejemplo utilizará el código usado en https://docs.docker.com/get-started/workshop
 
 En la siguiente images puedes ver la arquitectura del ejemplo:
-![arquitectura](./architecture.webp)
+![arquitectura](./architecture.png)
