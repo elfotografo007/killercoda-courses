@@ -13,7 +13,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello_world():
     return "<p>Hello, World!</p>"
-```
+```{{copy}}
 
 Luego un `requirements.txt` para las dependencias:
 
@@ -38,7 +38,7 @@ RUN useradd app
 USER app
 
 CMD ["flask", "--app", "hello", "run", "--host", "0.0.0.0"]
-```
+```{{copy}}
 
 Crear la imagen:
 
